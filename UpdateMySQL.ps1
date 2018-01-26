@@ -1,4 +1,5 @@
 ﻿# To pull the data from Azure for VM Sizes
+# This is for testing
 $AppSecretKey = "m96Ga2Qy4nY7XIJcOn8W4yV+HltiTUT2Kl7HuPhgs3E="
 $ClientID = "4236a630-c8fb-49c7-b17d-c218ecb12823"
 $TenantID = "39058880-0de6-4acb-972d-ca47c32b0163"

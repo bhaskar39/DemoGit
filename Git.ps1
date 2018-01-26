@@ -13,6 +13,8 @@ $rgName = Get-Content .\rg.txt
 $WebAppsStr = Get-Content .\ids.txt
 $WebApps = $WebAppsStr.Trim().Split(",")
 
+#Foreach Loop
+# Loop for Testing through WebApps
 foreach($Webapp in $WebApps)
 { 
     $WebAppName = (Split-Path $Webapp -Leaf).Trim()
